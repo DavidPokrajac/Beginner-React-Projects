@@ -1,0 +1,11 @@
+.Container{
+  font-size: 2em;
+  border: 3px solid white;
+  width: 60vw;
+  height: 35vh;
+  margin: 50px auto;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

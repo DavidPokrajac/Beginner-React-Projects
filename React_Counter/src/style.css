@@ -1,0 +1,11 @@
+h1, p {
+  font-family: Lato;
+  text-align: center;
+}
+
+body{
+  background-color: #09c3f6;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}

@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+h1,
+p {
+  font-family: Lato;
+  text-align: center;
+}
+
+h1 {
+  color: #b97507;
+}
+
+body {
+  height: 100vh;
+  overflow: hidden;
+  background: linear-gradient(
+    to bottom left,
+    #f7d5a8 10%,
+    #eeb062 20%,
+    #e7a149 40%,
+    #f09a2d 60%,
+    #f79111 80%,
+    #fb8d03 90%
+  );
+  background-repeat: no-repeat;
+}

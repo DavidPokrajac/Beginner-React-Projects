@@ -1,0 +1,35 @@
+*{
+  box-sizing: border-box;
+}
+
+.Container {
+  margin: 0 auto;
+  width: 300px;
+  max-width: 95%;
+  border: 1px solid #449528;
+  border-radius: 10px;
+  padding: 15px 10px;
+  background-color: #87db71;
+}
+
+.Subcontainer {
+  display: flex;
+}
+
+.Container .Credentials{
+  text-align: center;
+  display: block;
+  color: #449528;
+  margin-top: 15px;
+  font-size: 16px;
+  font-family: Lato;
+}
+
+@media (max-width: 400px){
+  .Container{
+    min-height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,26 @@
+*{
+  box-sizing: border-box;
+}
+
+.Div{
+  display: flex;
+  margin: 10px 0 0;
+}
+
+.Div > button{
+  font-size: 20px;
+  padding: 5px 8.5px;
+  background: linear-gradient(to top right, #d5ec8f 24%, #c7ea5d 40%, #b3da3d 73%);
+  border: 1px solid #449528;
+  border-radius: 2px;
+}
+
+.Div > button:first-child{
+  flex-grow: 1.5;
+}
+
+@media (max-width: 400px){
+  .Div > button{
+    padding: 10px 15px;
+  }
+}

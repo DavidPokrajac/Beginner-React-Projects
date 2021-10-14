@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+.Remove{
+  border: 2px solid #aa1d1d;
+  color: white;
+  background-color: #e73232;
+  font-weight: bold;
+  border-radius: 50%;
+  cursor: pointer;
+  width: 2em;
+  height: 2em;
+  font-size: 1.5em;
+}
+
+.Remove:hover{
+  background-color: #f45f4c;
+  transition: all 0.5s linear;
+}
+
+.Remove:focus{
+  outline: none;
+}

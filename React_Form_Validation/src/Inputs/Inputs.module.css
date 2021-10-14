@@ -1,0 +1,23 @@
+.Label {
+  display: block;
+  margin-bottom: 4px;
+  font-style: italic;
+} 
+
+.Div {
+  width: 90vw;
+  margin: 0 auto;
+  text-align: center;
+  padding: 5px;
+}
+
+input{
+  border-radius: 10px;
+  border: 2px solid whitesmoke;
+  padding: 5px 5px 5px 10px;
+  font-size: 1.2em;
+}
+
+input:focus{
+  outline: none;
+}

@@ -1,0 +1,18 @@
+*{
+  box-sizing: border-box;
+}
+
+.Display{
+  width: 100%;
+  font-family: Lato;
+  font-size: 32px;
+  padding: 5px 10px;
+  text-align: right;
+  border: 1px solid #449528;
+  border-radius: 5px;
+  background: linear-gradient(to top right, #d5ec8f 24%, #c7ea5d 40%, #b3da3d 73%);
+}
+
+.Display:focus{
+  outline: none;
+}

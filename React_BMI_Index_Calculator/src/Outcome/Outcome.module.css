@@ -1,0 +1,38 @@
+.Div{
+  margin: 2em;
+  border: 2px solid silver;
+}
+
+.Success{
+  color: #006400;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.Success::before{
+  display: inline;
+  content: "#";
+}
+
+.SuccessText{
+  color: #006400;
+  font-style: italic;
+  font-size: 1.2em;
+}
+
+.Danger{
+  color: #FF0000;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.Danger::before{
+  display: inline;
+  content: "#";
+}
+
+.DangerText{
+  color: #FF0000;
+  font-style: italic;
+  font-size: 1.2em;
+}

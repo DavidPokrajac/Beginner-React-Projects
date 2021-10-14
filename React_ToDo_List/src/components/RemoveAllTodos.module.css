@@ -1,0 +1,26 @@
+.Div{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.Div button{
+  font-family: inherit;
+  font-size: 1em;
+  padding: 5px 7px;
+  border-radius: 5px;
+  border: 2px solid #0e7b90;
+  background-color: #0babca;
+  color: #fff;
+}
+
+.Div button:focus{
+  outline: none;
+}
+
+.Div button:hover{
+  cursor: pointer;
+  border-radius: 20px;
+  background-color: transparent;
+  transition: all 0.3s ease;
+} 

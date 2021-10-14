@@ -1,0 +1,30 @@
+*{
+  box-sizing: border-box;
+}
+
+.Container {
+  border: 2px solid white;
+  max-width: 250px;
+  width: 90%;
+  height: 50vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Container p {
+  width: 90%;
+  font-size: 6em;
+  font-weight: bold;
+  color: white;
+  margin: 10px auto 0;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.Controls {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 0;
+}

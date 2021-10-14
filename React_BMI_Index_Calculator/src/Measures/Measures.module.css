@@ -1,0 +1,35 @@
+.Measures{
+  margin: 0 auto;
+  width: 90vw;
+  height: 18vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Measures > div{
+  border: 2px solid silver;
+  text-align: center;
+  padding: 0.4em;
+}
+
+.Input{
+  border: none;
+  text-align: center;
+  font-size: 1.2em;
+  padding: 0.3em;
+  display: inline-block;
+  width: 30vw;
+  margin-top: 0.5em;
+  border-radius: 1em;
+  color: #4169E1;
+}
+
+
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}

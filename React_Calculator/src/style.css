@@ -1,0 +1,15 @@
+*{
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+body{
+  background: linear-gradient(to top right, #d5ec8f 24%, #c7ea5d 40%, #b3da3d 73%);
+  height: 100vh;
+  overflow: hidden;
+}
+
+h1, p {
+  font-family: Lato;
+  text-align: center;
+}

@@ -1,0 +1,53 @@
+.Container {
+  border: 2px solid #ad7314;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px #a4690a;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.Container p {
+  line-height: 1.8em;
+  padding: 2em;
+  color: #523403;
+}
+
+.Container button {
+  color: #523403;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+  font-family: inherit;
+  font-size: 1.1em;
+  padding: 1em 1.5em;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: #cb8514;
+  letter-spacing: 0.1em;
+}
+
+.Container button:focus {
+  outline: none;
+}
+
+.Container button:hover {
+  animation: dance 1s 1;
+  border: 1px solid #523403;
+}
+
+@keyframes dance {
+  20% {
+    transform: rotateZ(10deg);
+  }
+  40% {
+    transform: rotateZ(-10deg);
+  }
+  60% {
+    transform: rotateZ(10deg);
+  }
+  80% {
+    transform: rotateZ(-10deg);
+  }
+}

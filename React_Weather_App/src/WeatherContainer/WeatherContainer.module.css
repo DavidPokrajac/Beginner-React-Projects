@@ -1,0 +1,148 @@
+.Container {
+  padding: 0;
+  margin-top: -15px;
+}
+
+.Container p:first-of-type {
+  font-size: 1.5em;
+}
+
+.Title{
+  border: 1px solid red;
+}
+
+.Info {
+  border: 2px solid #0ba5c4;
+  border-radius: 20px;
+  width: 60vw;
+  margin: 0 auto;
+}
+
+.HiddenInfo {
+  display: none;
+}
+
+.Info p{
+  font-size: 1.3em;
+  margin-top: -5px;
+} 
+
+.Additional{
+  display: flex;
+  justify-content: space-around;
+  font-family: "Lato";
+  padding: 10px;
+}
+
+.Block{
+  display: block;
+  margin: 0.5em;
+}
+
+.Cloud{
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 0 auto;
+  background-image: url("https://openweathermap.org/img/wn/03d@2x.png");
+  background-size: 100px 100px;
+}
+
+.FewDay{
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 0 auto;
+  background-image: url("https://openweathermap.org/img/wn/02d@2x.png");
+  background-size: 100px 100px;
+}
+
+.FewNight{
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 0 auto;
+  background-image: url("https://openweathermap.org/img/wn/02n@2x.png");
+  background-size: 100px 100px;
+}
+
+.Shower{
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 0 auto;
+  background-image: url("https://openweathermap.org/img/wn/04d@2x.png");
+  background-size: 100px 100px;
+}
+
+.Clouds{
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 0 auto;
+  background-image: url("https://openweathermap.org/img/wn/04d@2x.png");
+  background-size: 100px 100px;
+}
+
+.Snow{
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 0 auto;
+  background-image: url("https://openweathermap.org/img/wn/13n@2x.png");
+  background-size: 100px 100px;
+}
+
+.Thunderstorm{
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 0 auto;
+  background-image: url("https://openweathermap.org/img/wn/11d@2x.png");
+  background-size: 100px 100px;
+}
+
+.Mist{
+  display: block;
+  background-image: url("https://openweathermap.org/img/wn/50d@2x.png");
+  background-size: 100px 100px;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 0 auto;
+}
+
+.RainNight{
+  background-image: url("https://openweathermap.org/img/wn/10n@2x.png");
+  background-size: 100px 100px;
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 0 auto;
+}
+
+.RainDay{
+  background-image: url("https://openweathermap.org/img/wn/10d@2x.png");
+  background-size: 100px 100px;
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 0 auto;
+}
+
+.ClearNight{
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 0 auto;
+  background-image: url("https://openweathermap.org/img/wn/01n@2x.png");
+  background-size: 100px 100px;
+}
+
+.ClearDay{
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 0 auto;
+  background-image: url("https://openweathermap.org/img/wn/01d@2x.png");
+  background-size: 100px 100px;
+}

@@ -1,0 +1,32 @@
+.Div {
+  margin: 0;
+  padding: 5px;
+  background-color: #76dbee;
+}
+
+.Div:last-of-type {
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+.Div span {
+  display: inline-block;
+  padding: 5px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.Div span:hover {
+  cursor: pointer;
+}
+
+.Div .Buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Div .Buttons span:hover{
+  border-radius: 5px;
+  transform: scaleX(1.1);
+  transition: all 0.1s ease-out;
+}

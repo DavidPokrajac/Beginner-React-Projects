@@ -1,0 +1,42 @@
+.Form{
+  font-family: Lato;
+  width: 80vw;
+  margin: 25px auto;
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+
+.Form button:focus, .Form input:focus{
+  outline: none;
+}
+
+.Form input{
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  padding: 9px 15px;
+  font-size: 1em;
+  letter-spacing: inherit;
+  border: 2px solid #0ab9dd;
+  border-radius: 20px;
+  text-transform: capitalize;
+}
+
+.Form button{
+  font-family: inherit;
+  display: inline-block;
+  width: 40%;
+  margin: 15px;
+  font-size: 1em;
+  border: 2px solid #0ab9dd;
+  border-radius: 20px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.Form button:hover{
+  background-color: #0ab9dd;
+  border: 2px solid whitesmoke;
+  color: whitesmoke;
+}
+

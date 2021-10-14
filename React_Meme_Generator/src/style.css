@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+
+* {
+  font-family: Lato;
+  text-align: center;
+}
+
+body {
+  background-color: #09c3f6;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 90vw;
+  height: 250px;
+}
+
+.Content {
+  margin: 10px auto;
+  padding: 0;
+  position: relative;
+  width: 90vw;
+}
+
+.Top {
+  font-size: 2rem;
+  font-family: "Luckiest Guy", cursive;
+  color: white;
+  position: absolute;
+  left: 50%;
+  top: -15%;
+  transform: translateX(-50%);
+  width: 100%;
+}
+
+.Bottom {
+  font-size: 2rem;
+  font-family: "Luckiest Guy", cursive;
+  color: white;
+  position: absolute;
+  left: 50%;
+  top: 67%;
+  transform: translateX(-50%);
+  width: 100%;
+}
+
+input{
+  text-transform: capitalize;
+  padding: 0.4rem;
+}
+
+button{
+  padding: 0.4rem;
+  display: inline-block;
+}

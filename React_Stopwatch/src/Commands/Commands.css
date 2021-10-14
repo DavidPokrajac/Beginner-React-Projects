@@ -1,0 +1,25 @@
+.CmdsContainer{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.CmdsContainer button{
+  font-size: 1.3em;
+  font-family: "Lato";
+  border: none;
+  background: none;
+}
+
+.CmdsContainer button:hover{
+  cursor: pointer;
+  color: firebrick;
+}
+
+.CmdsContainer button:active{
+  cursor: pointer;
+  color: darkred;
+}
+
+.CmdsContainer button:focus{
+  outline: none;
+}
